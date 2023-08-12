@@ -9,7 +9,7 @@ import com.example.banktransfer.databinding.CustomerItemBinding
 import com.example.banktransfer.domain.Customer
 
 class HomeAdapter(private val onClick: (Long) -> Unit) :
-    ListAdapter<Customer, HomeAdapter.CustomerViewHolder>(CustomerDiffCallBack()) {
+        ListAdapter<Customer, HomeAdapter.CustomerViewHolder>(CustomerDiffCallBack()) {
 
     class CustomerViewHolder private constructor(private val binding: CustomerItemBinding) :
         RecyclerView.ViewHolder(binding.root) {

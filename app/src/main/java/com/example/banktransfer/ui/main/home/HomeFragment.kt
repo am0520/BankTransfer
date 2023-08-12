@@ -10,7 +10,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.banktransfer.databinding.FragmentHomeBinding
-import com.example.banktransfer.domain.Customer
 import com.example.banktransfer.domain.asDomainModel
 
 class HomeFragment : Fragment() {
@@ -37,8 +36,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun initView() {
-        binding.lifecycleOwner = viewLifecycleOwner
-        val recyclerView = binding.homeCustomerRv
+        val recyclerView = binding.root
         recyclerView.adapter = homeAdapter
         recyclerView.addItemDecoration(
             DividerItemDecoration(recyclerView.context, LinearLayoutManager.VERTICAL)
