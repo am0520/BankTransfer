@@ -1,6 +1,6 @@
 # BankTransfer
 
-Simple master-detail application as part of the Graduate Rotational Internship Program from the The Sparks Foundation.
+Simple master-detail application as part of the Graduate Rotational Internship Program from The Sparks Foundation.
 
 Home             |  Detail             |  Transfer             |  Finished
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
